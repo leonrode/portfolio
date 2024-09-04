@@ -8,9 +8,15 @@ const data = {
 	},
 	{
 	    "name": "Quantum Double Slit Experiment",
-	    "description": "simulated the double slit experiment on an ibm quantum computer according to historical experiment parameters. i then discussed the results in a paper",
+	    "description": "Simulated the double slit experiment on an ibm quantum computer according to historical experiment parameters. i then discussed the results in a paper",
 	    "tags": ["qiskit", "python", "latex"],
 	    "links": [{"type": "github", "link": "https://github.com/leonrode/quantum-double-slit-experiment"}]
+	},
+	{
+	    "name": "LAVCA A.I. for Patria Investments",
+	    "description": "Developed AI-based platform for Patria Investments for analysis of LAVCA dataset using A.I.",
+	    "tags": ["react.js", "python", "openai"],
+	    "links": []
 	},
 	{
 	    "name": "Autostereogram Research",
@@ -29,7 +35,8 @@ const data = {
 	    "description": "Developed and managed global social platform to connect up-and-coming musicians and producers",
 	    "tags": ["next.js", "react.js", "tailwindcss", "mongodb"],
 	    "links": [{"type": "link", "link": "https://disturbthenoize.com"}]
-	}
+	},
+	
     ]
 };
 
