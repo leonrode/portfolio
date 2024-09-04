@@ -14,12 +14,13 @@ html {
 
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: fit-content;
     background-color: #e4e4e4;
     display: flex;
     flex-direction: column;
     width: 50%;
     padding: 2rem;
+    padding-bottom: 4rem;
 }
 
 .bio {
@@ -82,6 +83,7 @@ body > h2 {
 }
 
 #skills {
+    margin-bottom: 10px;
 }
 
 #skills > span:first-child {

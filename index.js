@@ -2,13 +2,13 @@ const data = {
     "projects": [
 	{
 	    "name": "Quantum Amplitude Estimation",
-	    "description": "Implemented an algorithm to estimate a basis amplitude for a quantum state",
+	    "description": "Implemented an algorithm to estimate a basis amplitude for a quantum state.",
 	    "tags": ["qiskit", "python"],
 	    "links": [{"type": "github", "link": "https://github.com/leonrode/qindia-qa101-final-project"}]
 	},
 	{
 	    "name": "Quantum Double Slit Experiment",
-	    "description": "Simulated the double slit experiment on an ibm quantum computer according to historical experiment parameters. i then discussed the results in a paper",
+	    "description": "Simulated the double slit experiment on an ibm quantum computer according to historical experiment parameters. I then discussed the results in a paper.",
 	    "tags": ["qiskit", "python", "latex"],
 	    "links": [{"type": "github", "link": "https://github.com/leonrode/quantum-double-slit-experiment"}]
 	},
@@ -20,19 +20,19 @@ const data = {
 	},
 	{
 	    "name": "Autostereogram Research",
-	    "description": "Researched and implemented own version of computer-based autostereogram (SIRDS) generation",
+	    "description": "Researched and implemented own version of computer-based autostereogram (SIRDS) generation.",
 	    "tags": ["python", "p5.js"],
 	    "links": []
 	},
 	{
 	    "name": "Westchester Covid-19 Tracker",
-	    "description": "Built website as community service project to visualize COVID-19 trends in Westchester County, NY",
+	    "description": "Built website as community service project to visualize COVID-19 trends in Westchester County, NY.",
 	    "tags": ["python", "aws", "react.js", "mongodb", "javascript"],
 	    "links": []
 	},
 	{
 	    "name": "Disturb The Noize",
-	    "description": "Developed and managed global social platform to connect up-and-coming musicians and producers",
+	    "description": "Developed and managed global social platform to connect up-and-coming musicians and producers.",
 	    "tags": ["next.js", "react.js", "tailwindcss", "mongodb"],
 	    "links": [{"type": "link", "link": "https://disturbthenoize.com"}]
 	},
