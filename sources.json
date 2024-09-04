@@ -1,0 +1,15 @@
+{
+    "projects": [
+	{
+	    "name": "Quantum Amplitude Estimation",
+	    "description": "Implemented an algorithm to estimate a basis amplitude for a quantum state",
+	    "tags": ["qiskit", "python"],
+	    "links": [{"type": "github", "link": "https://github.com/leonrode/qindia-qa101-final-project"}]
+	},
+	{
+	    "name": "Quantum Double Slit Experiment",
+	    "description": "Simulated the double slit experiment on an IBM Quantum computer according to historical experiment parameters. I then discussed the results in a paper",
+	    "tags": ["qiskit", "python", "latex"],
+	    "links": [{"type": "github", "link": "https://github.com/leonrode/quantum-double-slit-experiment"}]
+    ]
+}
