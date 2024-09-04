@@ -49,7 +49,7 @@ for (const project of data.projects.reverse()) {
 	linksHTML += `<div class="project-link"><a href="${link.link}">${link.type}</a></div>`;
     }
 
-    let HTMLtoInsert = `<section><div class="project-header"><h1 class="project-title">${project.name}</h1><div>${project.tags.map(tag => "<span>" + tag + "</span>").toString().replaceAll(",", "")}</div></div><p class="project-desc">${project.description}</p>${linksHTML}</section>`;
+    let HTMLtoInsert = `<section><div class="project-header"><h1 class="project-title">${project.name}</h1></div><div class="project-tags">${project.tags.map(tag => "<span>" + tag + "</span>").toString().replaceAll(",", "")}</div><p class="project-desc">${project.description}</p>${linksHTML}</section>`;
 
     projectsStart.insertAdjacentHTML("afterend", HTMLtoInsert);
 }

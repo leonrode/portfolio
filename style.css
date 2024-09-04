@@ -67,7 +67,12 @@ body > h2 {
     align-items: center;
 }
 
-.project-header > div > span, #skills > span {
+.project-tags {
+    display: flex;
+    margin: 0.5em 0;
+}
+
+.project-tags > span, #skills > span {
     background-color: #d4d4d4;
     padding: 0.3rem 0.7rem;
     border-radius: 500px;
