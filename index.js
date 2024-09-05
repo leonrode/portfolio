@@ -26,7 +26,7 @@ const data = {
 	},
 	{
 	    "name": "Westchester Covid-19 Tracker",
-	    "description": "Built website as community service project to visualize COVID-19 trends in Westchester County, NY.",
+	    "description": "Built website as community service project to visualize COVID-19 trends in Westchester County, NY. The site ran from November 2020 through December 2022, collecting case data for each town within the county on a weekly basis, storing them in MongoDB. The site is now taken down as a result of the termination of official COVID-19 data publication.",
 	    "tags": ["python", "aws", "react.js", "mongodb", "javascript"],
 	    "links": []
 	},
