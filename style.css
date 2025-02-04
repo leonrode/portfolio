@@ -112,14 +112,20 @@ body > h2 {
     text-decoration: underline;
 }
 
+.project-links { 
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
-	width: 80%;
+	    width: 80%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     body {
-	width: 100%;
+	    width: 100%;
     }
 }

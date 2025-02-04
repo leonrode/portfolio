@@ -36,6 +36,12 @@ const data = {
 	    "tags": ["next.js", "react.js", "tailwindcss", "mongodb"],
 	    "links": [{"type": "link", "link": "https://disturbthenoize.com"}]
 	},
+	{
+		"name": "Electric Field Visualizer",
+		"description": "Built a mini project to compute and draw electric field lines based on a number of charges in a plane.",
+		"tags": ["javascript", "p5.js"],
+		"links": [{"type": "github", "link": "https://github.com/leonrode/electric-field-visualizer"}, {"type": "link", "link": "https://leonrode.github.io/electric-field-visualizer/"}]
+	}
 	
     ]
 };
@@ -46,10 +52,10 @@ const skills = document.getElementById("skills");
 for (const project of data.projects.reverse()) {
     let linksHTML = "";
     for (let link of project.links) {
-	linksHTML += `<div class="project-link"><a href="${link.link}">${link.type}</a></div>`;
+		linksHTML += `<div class="project-link"><a href="${link.link}">${link.type}</a></div>`;
     }
 
-    let HTMLtoInsert = `<section><div class="project-header"><h1 class="project-title">${project.name}</h1></div><div class="project-tags">${project.tags.map(tag => "<span>" + tag + "</span>").toString().replaceAll(",", "")}</div><p class="project-desc">${project.description}</p>${linksHTML}</section>`;
+    let HTMLtoInsert = `<section><div class="project-header"><h1 class="project-title">${project.name}</h1></div><div class="project-tags">${project.tags.map(tag => "<span>" + tag + "</span>").toString().replaceAll(",", "")}</div><p class="project-desc">${project.description}</p><div class="project-links">${linksHTML}</div></section>`;
 
     projectsStart.insertAdjacentHTML("afterend", HTMLtoInsert);
 }
