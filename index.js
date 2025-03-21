@@ -41,6 +41,12 @@ const data = {
 		"description": "Built a mini project to compute and draw electric field lines based on a number of charges in a plane.",
 		"tags": ["javascript", "p5.js"],
 		"links": [{"type": "github", "link": "https://github.com/leonrode/electric-field-visualizer"}, {"type": "link", "link": "https://leonrode.github.io/electric-field-visualizer/"}]
+	},
+	{
+		"name": "Better Joystick",
+		"description": "Built a small Arduino library to interface dual-axis joysticks for Arduino boards.",
+		"tags": ["arduino", "c++"],
+		"links": [{"type": "github", "link": "https://github.com/leonrode/better-joystick"}, {"type": "link", "link": "https://docs.arduino.cc/libraries/better-joystick/"}]
 	}
 	
     ]
