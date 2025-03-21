@@ -28,7 +28,7 @@ const data = {
 	    "name": "Westchester Covid-19 Tracker",
 	    "description": "Built website as community service project to visualize COVID-19 trends in Westchester County, NY. The site ran from November 2020 through December 2022, collecting case data for each town within the county on a weekly basis, storing them in MongoDB. The site is now taken down as a result of the termination of official COVID-19 data publication.",
 	    "tags": ["python", "aws", "react.js", "mongodb", "javascript"],
-	    "links": []
+	    "links": [{"type": "github", "link": "https://github.com/leonrode/westchestercovidtracker.com"}]
 	},
 	{
 	    "name": "Disturb The Noize",
@@ -58,7 +58,7 @@ const skills = document.getElementById("skills");
 for (const project of data.projects.reverse()) {
     let linksHTML = "";
     for (let link of project.links) {
-		linksHTML += `<div class="project-link"><a href="${link.link}">${link.type}</a></div>`;
+		linksHTML += `<div class="project-link"><a ref target="_blank" href="${link.link}">${link.type}</a></div>`;
     }
 
     let HTMLtoInsert = `<section><div class="project-header"><h1 class="project-title">${project.name}</h1></div><div class="project-tags">${project.tags.map(tag => "<span>" + tag + "</span>").toString().replaceAll(",", "")}</div><p class="project-desc">${project.description}</p><div class="project-links">${linksHTML}</div></section>`;
